@@ -2,11 +2,11 @@
 
 **組員:林尚箴  學號:B10502214**
 
-專案介紹:透過演算法將不一樣曝光時間的照片合成成一張 HDR(High Dynamic Range)Image，之後HDR Image重新Mapping回LDR
+專案介紹:透過演算法將不一樣曝光時間的照片合成一張 HDR(High Dynamic Range)Image，之後HDR Image重新Mapping回LDR
 
 此專案分為以下步驟
 
-**1.Taking Phtotos:**  
+**1.Taking Photos:**  
 使用手機拍一組不一樣曝光時間的照片
 
 **2.Image sampling:**  
