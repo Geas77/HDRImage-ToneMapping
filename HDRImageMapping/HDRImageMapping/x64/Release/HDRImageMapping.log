@@ -1,4 +1,36 @@
-﻿  正在產生程式碼
-  All 568 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+﻿  Main.cpp
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\include\opencv2\calib3d.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(118): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(170): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(215): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(256): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(268): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(263): warning C4101: 'z': 未參考的區域變數
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(262): warning C4101: 'y': 未參考的區域變數
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(260): warning C4101: 'x': 未參考的區域變數
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(328): warning C4244: '=': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=float
+          ]
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(349): warning C4244: '正在初始化': 將 '_Tp' 轉換為 'int'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=float
+          ]
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(352): warning C4244: '正在初始化': 將 '_Tp' 轉換為 'int'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=float
+          ]
+c:\users\geas\documents\hdrimage-tonemapping\hdrimagemapping\hdrimagemapping\main.cpp(355): warning C4244: '正在初始化': 將 '_Tp' 轉換為 'int'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=float
+          ]
+  正在產生程式碼
+  6 of 568 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成程式碼產生
-  HDRImageMapping.vcxproj -> C:\Users\Geas\Documents\DigitalVisual\HDRiMAGE\HDRImageMapping\x64\Release\HDRImageMapping.exe
+  HDRImageMapping.vcxproj -> C:\Users\Geas\Documents\HDRImage-ToneMapping\HDRImageMapping\x64\Release\HDRImageMapping.exe

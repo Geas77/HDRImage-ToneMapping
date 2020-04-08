@@ -272,7 +272,11 @@ Mat ToneMapping(Mat &HDRImage,float intensity) {
 			{
          		LDchannels.at<Vec3f>(i, j)[ch] =255* HDRImage.at<Vec3f>(i, j)[ch]* Ld/ Lw;
 				//(1+ LMchannels.at<Vec3f>(i, j)[ch]/powf(1.5,2))*(1+Lm/powf(1.5, 2))
-				z = LDchannels.at<Vec3f>(i, j)[ch]*255;
+				if (LDchannels.at<Vec3f>(i, j)[ch] > 255)
+					LDchannels.at<Vec3f>(i, j)[ch] = 255;
+				if (LDchannels.at<Vec3f>(i, j)[ch] < 0)
+					LDchannels.at<Vec3f>(i, j)[ch] = 0;
+				//z = LDchannels.at<Vec3f>(i, j)[ch]*255;
 			}
 		}
 	}
